@@ -1,0 +1,16 @@
+convert_map:
+  name: Convert Map
+  description: Convert vacuum map data to an image
+  fields:
+    map_path:
+      name: Map Path
+      description: Path to the directory containing map files
+      example: "/config/vacuum_map"
+      selector:
+        text:
+    output_path:
+      name: Output Path
+      description: Path where the output image should be saved
+      example: "/config/www/vacuum_map.png"
+      selector:
+        text:

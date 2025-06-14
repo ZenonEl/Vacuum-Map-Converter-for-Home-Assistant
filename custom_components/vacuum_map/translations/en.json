@@ -1,0 +1,53 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Vacuum Map Converter Setup",
+        "description": "Configure the path to your vacuum map files",
+        "data": {
+          "map_path": "Path to map files directory",
+          "scan_interval": "Map update interval in seconds"
+        }
+      }
+    },
+    "error": {
+      "directory_not_found": "Directory not found",
+      "missing_files": "Required map files not found in the directory"
+    },
+    "abort": {
+      "already_configured": "This path is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Vacuum Map Converter Options",
+        "description": "Update your configuration",
+        "data": {
+          "map_path": "Path to map files directory",
+          "scan_interval": "Map update interval in seconds"
+        }
+      }
+    },
+    "error": {
+      "directory_not_found": "Directory not found",
+      "missing_files": "Required map files not found in the directory"
+    }
+  },
+  "services": {
+    "convert_map": {
+      "name": "Convert Map",
+      "description": "Convert vacuum map data to an image",
+      "fields": {
+        "map_path": {
+          "name": "Map Path",
+          "description": "Path to the directory containing map files"
+        },
+        "output_path": {
+          "name": "Output Path",
+          "description": "Path where the output image should be saved"
+        }
+      }
+    }
+  }
+}
