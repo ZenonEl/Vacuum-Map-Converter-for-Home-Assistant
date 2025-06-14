@@ -1,0 +1,48 @@
+# Generated files
+*.png
+*.base64.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Binary files that shouldn't be tracked
+*.tar
+*.gz
+*.zip
+1748587852-record.txt
+charger_pose.json
+area_user.json
+area_info.json
+path_record
+path_map
+navmap_bound.json
+map_record.map
+map_record.json
+map.segmentmap
+map.gridmap
+time_1749561000_mapid_1749561015.bin
